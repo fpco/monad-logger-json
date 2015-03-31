@@ -1,7 +1,7 @@
 # Monad Logger functions for JSON
 
-![img](//travis-ci.org/fpco/monad-logger-json.svg)
-![img](//img.shields.io/hackage/v/monad-logger-json.svg)
+![TravisCI](https://travis-ci.org/fpco/monad-logger-json.svg)
+![Hackage](https://img.shields.io/hackage/v/monad-logger-json.svg)
 
 ## Install
 
