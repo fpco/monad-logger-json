@@ -1,5 +1,5 @@
 name:                monad-logger-json
-version:             0.0.1
+version:             0.1.0.0
 homepage:            http://github.com/fpco/monad-logger-json
 synopsis:            JSON-friendly Logging APIs
 description:         Convienence functions for logging ToJSON with monad-logger
