@@ -1,10 +1,15 @@
-# Install
+# Monad Logger functions for JSON
+
+[TravisCI](https://travis-ci.org/fpco/monad-logger-json.svg)
+[Hackage](https://img.shields.io/hackage/v/monad-logger-json.svg)
+
+## Install
 
 As a library:
 
     cabal install monad-logger-json
 
-# Usage (example)
+## Usage (example)
 
     {-# LANGUAGE TemplateHaskell #-}
 
