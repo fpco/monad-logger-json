@@ -16,8 +16,6 @@ These functions handle encoding ToJSON types to the log.
 
 Example:
 ```
-{-# LANGUAGE TemplateHaskell #-}
-
 import Control.Monad.IO.Class ( MonadIO(liftIO) )
 import Control.Monad.Logger ( runStdoutLoggingT )
 import Control.Monad.Logger.JSON ( logInfoJ, logDebugJ )
