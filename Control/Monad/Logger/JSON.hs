@@ -15,7 +15,8 @@ Template Haskell logging functions to compliment Control.Monad.Logger.
 These functions handle encoding ToJSON types to the log.
 
 Example:
-```
+
+@
 import Control.Monad.IO.Class ( MonadIO(liftIO) )
 import Control.Monad.Logger ( runStdoutLoggingT )
 import Control.Monad.Logger.JSON ( logInfoJ, logDebugJ )
@@ -32,8 +33,9 @@ main =
     (do now <- liftIO getCurrentTime
         $logDebugJ (Message now)
         $logInfoJ "Hello world")
-```
-|-}
+@
+
+-}
 
 module Control.Monad.Logger.JSON
        (logDebugJ, logInfoJ, logWarnJ, logErrorJ, logOtherJ) where
