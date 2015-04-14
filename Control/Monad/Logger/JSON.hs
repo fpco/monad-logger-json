@@ -11,8 +11,10 @@ Maintainer  : FP Complete Developers <dev@fpcomplete.com>
 Stability   : experimental
 Portability : POSIX
 
-Template Haskell logging functions to compliment Control.Monad.Logger.
-These functions handle encoding ToJSON types to the log.
+Template Haskell logging functions to compliment
+"Control.Monad.Logger".  These functions handle encoding @ToJSON@
+instances to the log.  The log message body is the result of using
+'encode' on the data.
 
 Example:
 
